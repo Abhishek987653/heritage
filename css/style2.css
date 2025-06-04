@@ -1,0 +1,149 @@
+/* Universal Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1C1C1C;  /* Dark Reddish Black */
+    color: #F0F0F0;             /* Light Grey Text */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #2C2C2C; /* Darker Grey for Navbar */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #F0F0F0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #B22222; /* Dark Red */
+    border-radius: 5px;
+}
+
+/* Header Section */
+header {
+    background-color: #2C2C2C; /* Slightly lighter dark grey */
+    color: #F0F0F0;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+header .main-btn {
+    background-color: #B22222;  /* Dark Red */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header .main-btn:hover {
+    background-color: #FF4500; /* Lighter Orange-Red */
+}
+
+/* Features Section */
+.features {
+    padding: 50px 0;
+    background-color: #1C1C1C; /* Dark Reddish Black */
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background-color: #2C2C2C; /* Card background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 30%;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+/* Form Section (Contact Page) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    background-color: #2C2C2C;  /* Dark grey input background */
+    color: #F0F0F0;             /* Light text */
+    border: 1px solid #B22222;  /* Dark Red border */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #B22222;  /* Dark Red */
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #FF4500;  /* Hover Orange-Red */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C2C2C;
+    color: #F0F0F0;
+}
